@@ -23,7 +23,7 @@ function App() {
         <h1>Delicious Food Recipes</h1>
       </header>
       <RecipeList recipes={recipes} deleteRecipe={deleteRecipe} />
-      <RecipeCreate />
+      <RecipeCreate updateRecipes={updateRecipes} />
     </div>
   );
 }
